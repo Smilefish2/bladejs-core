@@ -1,0 +1,9 @@
+doctype html
+html
+    head
+        title: yield('title')
+    body
+        .container
+            include("layout.navbar.admin.foo", ['data' => 'john'])
+        sidebar.sidebar
+            h1 hello {{ $name }}
