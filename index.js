@@ -1,6 +1,8 @@
 'use strict';
 
-module.exports = function () {
+var App = function (jade) {
+
+    jade = jade || require('jade');
 
     /**
      * Add New Nodes
@@ -10,15 +12,18 @@ module.exports = function () {
     /**
      * Overrides Jade Lexer Prototype
      */
-    require('./lib/Lexer');
+    require('./lib/Lexer')(jade);
 
     /**
      * Overrides Jade Parser Prototype
      */
-    require('./lib/Parser');
+    require('./lib/Parser')(jade);
 
     /**
      * Overrides Jade Compiler Prototype
      */
-    require('./lib/Compiler');
+    require('./lib/Compiler')(jade);
+
 };
+
+module.exports = App();
