@@ -1,20 +1,27 @@
 {
-  "name": "no-name",
-  "version": "0.0.0-1",
-  "description": "Create blade template using jade (pug)",
+  "name": "bladejs-core",
+  "version": "0.0.1",
+  "description": "Laravel blade directives core",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "blade",
+    "core",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iGuntur/bladejs-core"
   },
   "author": {
     "name": "Guntur Poetra"
   },
   "license": "MIT",
-  "dependencies": {
-    "gulp-jade": "^1.1.0",
-    "jade": "^1.11.0"
-  },
   "devDependencies": {
-    "gulp-ext-replace": "^0.3.0"
+    "jade": "^1.11.0"
   }
 }
