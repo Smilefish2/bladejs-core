@@ -7,5 +7,5 @@ This part is the core to laravel-blade-jade.
 
 ## Official Documentation
 
-- [Jade](https://jade-lang.com)
-- [Blade](https://laravel.com)
+- [Jade Language](http://jade-lang.com)
+- [Blade Template](https://laravel.com/docs/blade)
