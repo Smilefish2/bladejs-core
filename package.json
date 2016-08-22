@@ -1,10 +1,22 @@
 {
-  "name": "blade-directives-core",
+  "name": "bladejs-core",
   "version": "0.0.1",
   "description": "Laravel blade directives core",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "blade",
+    "core",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iGuntur/bladejs-core"
   },
   "author": {
     "name": "Guntur Poetra"
