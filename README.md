@@ -1,6 +1,6 @@
-# Blade Laravel
+# bladejs-core
 
-Compile blade directives using jade template engine.
+> Compile blade directives using jade template engine.
 
 This part is the core to laravel-blade-jade.
 
@@ -9,3 +9,8 @@ This part is the core to laravel-blade-jade.
 
 - [Jade Language](http://jade-lang.com)
 - [Blade Template](https://laravel.com/docs/blade)
+
+
+# License
+
+MIT @ [Guntur](guntur.starmediateknik.com)
