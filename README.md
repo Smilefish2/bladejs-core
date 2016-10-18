@@ -13,4 +13,4 @@ This part is the core to laravel-blade-jade.
 
 # License
 
-MIT @ [Guntur](guntur.starmediateknik.com)
+MIT @ [Guntur](http://guntur.starmediateknik.com)
